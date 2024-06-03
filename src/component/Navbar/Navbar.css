@@ -1,0 +1,172 @@
+.navbar-container {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+.navbar-container-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 0.3rem;
+}
+
+.navbar-navigation-link {
+    /* font-family: Clash Display; */
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-home {
+    color: #FF5555;
+}
+
+.navbar-button button {
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* hamburger */
+
+#menu_line img
+{
+    height: 20px;
+}
+
+.menu-section button
+{
+    outline: 0;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    display: none;
+}
+
+@media (max-width:750px) {
+    .menu-section button
+    {
+        display: block;
+    }
+
+    .navbar-button button
+    {
+        display: none;
+    }
+
+    .navbar-navigation
+    {
+        display: none;
+    }
+}
+
+/* hamburger menu */
+
+.overlay {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 11;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.overlay-content .link
+{
+    font-size: 20px;
+}
+
+.overlay a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #272626;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.contact_section-menu button {
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.menu-section{
+    display: none;
+}
+@media (max-width:750px) {
+    .menu-section{
+        display: block;
+    }
+}
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .contact_section-menu button {
+        display: block;
+    }
+}

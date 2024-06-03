@@ -1,0 +1,294 @@
+.Hero{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    min-height: 100vh;
+    margin-top: 1rem;
+    place-items: center;
+    place-content: center;
+    width: 100%;
+    background-image: url("../../assets/valentin-salja-IzUa0XNlA4o-unsplash.jpg");
+   
+}
+.Herosub_1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5rem;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 0rem;
+
+    height: 100vh;
+    padding-bottom: 0rem;
+}
+.Herosub_2{
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: left; */
+    /* margin-bottom: 10rem; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.IMG_1{
+    position: relative;
+    z-index: 0;
+    right: 9px;
+    top: 153px;
+}
+.IMG_2{
+    position: relative;
+    z-index: 0;
+    right: 629px;
+    top: -145px;
+}
+.IMG_3{
+    position: relative;
+    z-index: 0;
+    right: 1663px;
+}
+.IMG_4{
+    position: relative;
+    z-index: 3;
+    right: 1333px;
+    top: -85px;
+}
+.IMG_5{
+    position: relative;
+    z-index: 0;
+    top: 77px;
+    right: 2413px;
+}
+.Back{
+display: none;
+
+}
+.Herosub_1 h1{
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    margin: 0px;
+}
+.Herosub_1 h3{
+    margin: 0px;
+    color: rgb(73, 73, 73);
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+.Buttons{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0rem;
+}
+.btn_1{
+    background-color: black;
+    border-radius: 6px;
+    padding: 1.5rem 2rem;
+    border: 2px solid black;
+    color: white;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    transition: all 400ms ease;
+}
+.btn_1:hover{
+    gap: 0.5rem;
+    color: gray;
+    background-color: white;
+    border-color: gray;
+}
+.btn_2{
+    background-color: white;
+    padding: 1.5rem 2rem;
+    border: 2px solid white;
+    color: black;
+    font-size: 2rem;
+    border-radius: 6px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all 400ms ease;
+}
+.btn_2:hover{
+    color: white;
+    background-color: gray;
+    border-color: white;
+    
+}
+.Bottom{
+    margin-top: 2rem;
+}
+.Bottom img{
+    width: 100%;
+}
+
+@media (max-width: 1300px) {
+    .Herosub_1 h1{
+        font-size: 3rem;
+    }
+    .Herosub_1 h3{
+        font-size: smaller;
+    }
+    .Herosub_1{
+        padding: 3rem;
+    }
+    .btn_1,.btn_2{
+       font-size: 1rem;
+       padding: 1rem 1.5rem;
+    }
+    .demi_1{
+        height: 340px;
+        width: auto;
+        display: inline-block;
+    }
+    .demi_2{
+        height: 512px;
+        display: inline-block;
+        width: auto;
+    }
+    .demi_4{
+        height: 440px;
+        width: auto;
+        display: inline-block;
+    }
+    .demi_3{
+        height: 440px;
+        width: auto;
+        display: inline-block;
+    
+    }
+    .demi_5{
+        height: 440px;
+        width: auto;
+        display: inline-block;
+    }
+    .IMG_1{
+        position: relative;
+        z-index: 0;
+        right: 107px;
+        top: -32px;
+        display: inline-block;  
+    }
+    .IMG_2{
+        position: relative;
+        z-index: 0;
+        display: inline-block;
+        right: 566px;
+        top: -45px;
+    }
+    .IMG_3{
+        position: relative;
+        top: -33px;
+        z-index: 0;
+        right: 1169px;
+        display: inline-block;
+    }
+    .IMG_4{
+        position: relative;
+        z-index: 3;
+        display: inline-block;
+        right: 974px;
+    }
+    .IMG_5{
+        position: relative;
+        z-index: 0;
+        display: inline-block;
+        top: 37px;
+        right: 1602px;
+    }
+    .Back{
+        display: none;
+    }
+    .Hero{
+        padding-left: 0rem;
+    }
+    .Herosub_2{
+        padding-left: 8rem;
+    }
+}
+@media (max-width: 960px) {
+    .Herosub_2{
+        padding-left: 2.5rem;
+    }
+}
+@media (max-width: 700px) {
+.Hero{
+    grid-template-columns: 1fr;
+    padding: 5rem;
+    gap: 17rem;
+    background-image: url("../../assets/valentin-salja-IzUa0XNlA4o-unsplash (1).jpg");
+}
+
+.Herosub_2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10rem;
+    padding-left: 0rem;
+}
+.Herosub_1 h1{
+font-size: 3rem;
+}
+.Herosub_1{
+    gap: 2rem;
+    padding: 2rem;
+}
+.Herosub_1 h3{
+    font-size: 0.9rem;
+    padding: 0rem;
+}
+.demi_1{
+    height: 200px;
+    width: auto;
+    
+}
+.demi_2,.demi_3,.demi_4,.demi_5{
+    height: 345px;
+    width: auto;
+
+    
+}
+
+.IMG_1,.IMG_2,.IMG_3,.IMG_4,.IMG_5{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.IMG_1{
+    top: 457px;
+}
+.IMG_2{
+    top: 103px;
+    right: 31px;
+}
+.IMG_3{
+    top: -589px;
+    z-index: 2;
+}
+.IMG_4{
+    top: -304px;
+}
+.IMG_5{
+    top: -879px;
+    right: 26px;
+}
+}

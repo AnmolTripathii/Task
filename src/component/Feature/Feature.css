@@ -1,0 +1,215 @@
+.Feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 11rem;
+    padding: 1rem;
+}
+.Feature1{
+    display: flex;
+    /* gap: 10rem; */
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 50%;
+}
+.img2{
+    position: absolute;
+    z-index: -1;
+}
+.img3{
+    position: absolute;
+    z-index: -1;
+}
+.text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    aspect-ratio: 1.5/1;
+    gap: 3rem;
+    flex-direction: column;
+    padding: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    width: 50%;
+    font-weight: 600;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.content h5{
+    font-weight: 300;
+}
+.head{
+    color: #FF5555;
+    font-size: 1.5rem;
+}
+h4 span{
+    color: #FF5555;
+    margin-right: 0.2rem;
+}
+.context h4{
+    font-size: 1.7rem;
+}
+.context h5{
+    font-size: 0.9rem;
+}
+.text h1{
+    font-size: 3rem;
+}
+.img4{
+    position: absolute;
+    right: 257px;
+}
+.img5{
+    position: absolute;
+    top: 2600px;
+}
+.block1{
+    gap: 7rem;
+}
+.block1 h1{
+    font-size: 3.7rem;
+}
+.block1 .head{
+    font-size: 2.5rem;
+}
+.block1 .context{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0rem;
+}
+
+.block2 .content .context{
+    gap: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 1300px) {
+    .content h4{
+        font-size: 1.1rem;
+    }
+    .content h5{
+        font-size: 0.7rem;
+    }
+    .text h1{
+        font-size: 1.7rem;
+    }
+    .head{
+        font-size: 1.1rem;
+    }
+    .img img{
+        width: auto;
+        height: 350px;
+    }
+    .img2 img{
+        width: auto;
+        height: 251px;
+    }
+    .img3 img{
+        width: auto;
+        height: 243px;
+    }
+    .img4 img{
+        width: auto;
+        height: 150px;
+    }
+    .img5 img{
+        width: auto;
+        height: 110px;
+    }
+    .img5{
+
+        top: 2300px;
+    }
+    .block1 h1{
+        font-size: 2.7rem;
+    }
+    .block1 .head{
+        font-size: 1.5rem;
+    }
+    .block1 .context{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0rem;
+    }
+    .block2 .content .context{
+        gap: 6rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 750px) {
+    .content h4{
+        font-size: 0.8rem;
+        text-align: center;
+        
+    }
+    .content h5{
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    .text h1{
+        font-size: 1.3rem;
+    }
+    .head{
+        font-size: 0.8rem;
+    }
+    .img img{
+        width: auto;
+        height: 250px;
+    }
+    .img2 img{
+        width: auto;
+        height: 151px;
+    }
+    .img3 img{
+        width: auto;
+        height: 160px;
+    }
+    .img5{
+        display: none;
+    }
+    .img4 {
+        display: none;
+    }
+    .block1{
+        gap: 2rem;
+    }
+    .block1 h1{
+        font-size: 1.7rem;
+    }
+    .block1 .head{
+        font-size: 0.7rem;
+    }
+    .block1 .context{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0rem;
+    }
+    .block2 .content .context{
+        gap: 6rem;
+        display: flex;
+        flex-direction: column;
+    }
+}

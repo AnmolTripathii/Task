@@ -1,0 +1,120 @@
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    gap: 5rem;
+    padding: 5rem 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.t_img2,.t_img3{
+    position: absolute;
+    z-index: -1;
+}
+.box_1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    gap: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 2rem;
+}
+.header h4{
+    line-height: 6rem;
+    font-size: 1.2rem;
+}
+.header h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.box_1 h3{
+    font-size: 2rem;
+}
+.box_1 h5{
+    font-size: 1rem;
+    color: gray;
+}
+.t_img4{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.t_img4 h5{
+    color: black;
+    padding-left: 0.5rem;
+}
+@media (max-width: 1300px) {
+    .t_img1 img{
+        width: auto;
+        height: 300px;
+    }
+    .t_img2 img{
+        width: auto;
+        height: 323px;
+    }
+    .t_img3 img{
+        width: auto;
+        height:250px;
+    }
+}
+@media (max-width: 700px) {
+    .box{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .header h4{
+        font-size: 1.1rem;
+    }
+    .header h1{
+        font-size: 1.5rem
+    }
+    .t_img1 img{
+        width: auto;
+        height: 250px;
+    }
+    .t_img2 img{
+        width: auto;
+        height: 323px;
+    }
+    .t_img3 img{
+        width: auto;
+        height:250px;
+    }
+    .box_1 h3{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .box_1 h5{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .box_1{
+        width: 100%;
+        padding: 2rem;
+    }
+
+}
